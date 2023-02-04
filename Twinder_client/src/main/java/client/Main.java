@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
 
 public class Main {
     final static int POOL_SIZE = 500;
-    final static int NUM_REQUEST = 500000;
+    final static int NUM_REQUEST = 1;
     public static void main(String[] args) {
         RequestCount counter = new RequestCount();
         ExecutorService service = Executors.newFixedThreadPool(POOL_SIZE);
