@@ -15,32 +15,38 @@ public class SwipeServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
-        res.setContentType("text/plain");
-        String urlPath = req.getPathInfo();
-
         // check we have a URL!
-        if (urlPath == null || urlPath.isEmpty()) {
-            res.setStatus(HttpServletResponse.SC_NOT_FOUND);
-            res.getWriter().write("missing parameters " + urlPath);
-            return;
-        }
+        try {
+            res.setContentType("text/plain");
+            String urlPath = req.getPathInfo();
+            if (urlPath == null || urlPath.isEmpty()) {
+                res.setStatus(HttpServletResponse.SC_NOT_FOUND);
+                res.getWriter().write("missing parameters " + urlPath);
+                return;
+            }
 
-        String[] urlParts = urlPath.split("/");
-        // and now validate url path and return the response status code
-        // (and maybe also some value if input is valid)
-        String postData = req.getReader().lines().collect(Collectors.joining());
-        if (!isUrlPostValid(urlParts)) {
-            res.setStatus(HttpServletResponse.SC_NOT_FOUND);
-            res.getWriter().write(urlPath + " url incorrect");
-        }
-        else if (!isPostDataValid(postData)) {
-            res.setStatus(HttpServletResponse.SC_BAD_REQUEST);
-            res.getWriter().write(postData + " post data wrong format");
-        }
-        else {
-            res.setStatus(HttpServletResponse.SC_CREATED);
-            // do any sophisticated processing with urlParts which contains all the url params
-            res.getWriter().write("It works!");
+            String[] urlParts = urlPath.split("/");
+            // and now validate url path and return the response status code
+            // (and maybe also some value if input is valid)
+            String postData = req.getReader().lines().collect(Collectors.joining());
+            if (!isUrlPostValid(urlParts)) {
+                res.setStatus(HttpServletResponse.SC_NOT_FOUND);
+                res.getWriter().write(urlPath + " url incorrect");
+            } else if (!isPostDataValid(postData)) {
+                res.setStatus(HttpServletResponse.SC_BAD_REQUEST);
+                res.getWriter().write(postData + " post data wrong format");
+            } else {
+                res.setStatus(HttpServletResponse.SC_CREATED);
+                // do any sophisticated processing with urlParts which contains all the url params
+                res.getWriter().write("It works!");
+            }
+        } catch (Exception e) {
+            try {
+                res.setStatus(HttpServletResponse.SC_BAD_REQUEST);
+                res.getWriter().write("Exception occured" + e.getMessage());
+            } catch (Exception ex) {
+
+            }
         }
     }
 
@@ -51,7 +57,7 @@ public class SwipeServlet extends HttpServlet {
             int swipeeId = Integer.parseInt(post.get("swipee").getAsString());
             String comment = post.get("comment").getAsString();
             if (post.keySet().size() != 3 || swiperId < 1 || swiperId > 5000
-            || swipeeId < 1 || swipeeId > 1000000 || comment.length() != 256) {
+            || swipeeId < 1 || swipeeId > 1000000 || comment.length() > 256) {
                 return false;
             }
         } catch (Exception e) {
