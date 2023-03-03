@@ -10,6 +10,11 @@ public class Main {
 
     private final static int THREAD_NUM = 100;
     private final static String host = "35.160.124.120";
+    /**
+     * connect to rabbitmq and run thraeds.
+     * @param args
+     * @throws Exception
+     */
     public static void main(String[] args) {
         try {
             ConnectionFactory factory = new ConnectionFactory();

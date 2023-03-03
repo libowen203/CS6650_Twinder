@@ -7,8 +7,15 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class Main {
+    // thread number.
     private final static int THREAD_NUM = 100;
     private final static String host = "35.160.124.120";
+
+    /**
+     * connect to rabbitmq and run thraeds.
+     * @param argv
+     * @throws Exception
+     */
     public static void main(String[] argv) throws Exception {
         ConnectionFactory factory = new ConnectionFactory();
         factory.setHost(host);

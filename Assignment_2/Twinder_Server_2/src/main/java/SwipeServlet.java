@@ -21,6 +21,12 @@ public class SwipeServlet extends HttpServlet {
     private final static String EXCHANGE_NAME = "swipeinfo";
     private final static String host = "35.160.124.120";
 
+    /**
+     * initiate the servelet with a fix sized rabbitmq channel pool.
+     * the channels in the pool are connected and won't be disconnected.
+     * so that each doPost request can use a channel without reconnect.
+     * @throws ServletException
+     */
     @Override
     public void init() throws ServletException {
         super.init();
@@ -84,6 +90,12 @@ public class SwipeServlet extends HttpServlet {
         }
     }
 
+    /**
+     * Extract swiperId, swipeeId, comment from the postData
+     * use the info to creat a SwipeInfo object.
+     * @param postData a json String
+     * @return
+     */
     private SwipeInfo getSwipeInfo(String postData) {
         try {
             JsonObject post = new Gson().fromJson(postData, JsonObject.class);
@@ -99,6 +111,12 @@ public class SwipeServlet extends HttpServlet {
             return null;
         }
     }
+
+    /**
+     * validate the url, true only if urlPath[1] is left or right.
+     * @param urlPath
+     * @return
+     */
     private boolean isUrlPostValid(String[] urlPath) {
         if (!urlPath[1].equals("left") && !urlPath[1].equals("right")) {
             return false;
@@ -106,6 +124,12 @@ public class SwipeServlet extends HttpServlet {
         return true;
     }
 
+    /**
+     * Borrow a channel from the pool and declare the exchange, and sent message.
+     * the message is gotten from swipeInfo.
+     * then return the channel to the pool.
+     * @param info
+     */
     private void sendMessageToQueue(SwipeInfo info) {
         Channel channel = null;
         try {

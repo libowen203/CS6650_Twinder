@@ -10,6 +10,11 @@ public class ConsumerThread implements Runnable{
 
     private Connection connection;
     private SwipeCount sc;
+    /**
+     * creat a thread with recorder.
+     * @param connection connection to the rabbitmq.
+     * @param sc recorder of swipes
+     */
     public ConsumerThread(Connection connection, SwipeCount sc) {
         this.connection = connection;
         this.sc = sc;
@@ -37,6 +42,11 @@ public class ConsumerThread implements Runnable{
         }
     }
 
+    /**
+     * process message, the message can be: "swiperId 123 swipeeId 222 comment asdasdasd"
+     * split by " " and get an array, use the information to store in the SwipeCount object.
+     * @param message
+     */
     private void processMessage(String message) {
         String[] parts = message.split(" ");
         String leftOrRight = parts[1];

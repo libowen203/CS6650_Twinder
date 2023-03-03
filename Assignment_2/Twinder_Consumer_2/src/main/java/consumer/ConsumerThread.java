@@ -11,6 +11,12 @@ public class ConsumerThread implements Runnable{
     private static final String EXCHANGE_NAME = "swipeinfo";
     private Connection conn;
     private SwipeRight sr;
+
+    /**
+     * creat a thread with recorder.
+     * @param conn connection to the rabbitmq.
+     * @param sr right swipe recorder
+     */
     public ConsumerThread(Connection conn, SwipeRight sr) {
         this.conn = conn;
         this.sr = sr;
@@ -40,6 +46,11 @@ public class ConsumerThread implements Runnable{
         }
     }
 
+    /**
+     * process message, the message can be: "swiperId 123 swipeeId 222 comment asdasdasd"
+     * split by " " and get an array, use the information to store in the SwipeRight object.
+     * @param message
+     */
     private void processMessage(String message) {
         String[] parts = message.split(" ");
         String leftOrRight = parts[1];
