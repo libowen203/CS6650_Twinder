@@ -8,9 +8,9 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
 public class Main {
-    final static int NUM_THREAD = 300;
+    final static int NUM_THREAD = 600;
     final static int TOTAL_REQUEST = 500000;
-    final static String SERVER_URL = "http://35.91.94.28:8080/Twinder_server_spring-0.0.1-SNAPSHOT";
+    final static String SERVER_URL = "http://server-alb-466139350.us-west-2.elb.amazonaws.com:8080/Twinder_Server_2_war";
 
     /**
      * Use a thread pool of fixed size of NUM_THREAD and have a TOTAL_REQUEST number, each thread is going to send
