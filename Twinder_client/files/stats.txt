@@ -638,3 +638,19 @@ Max: 12974
 
 ----------------------------------------------------------
 
+NUM_THREAD :600
+Start time: 2023-03-25T14:38:58.184760
+End time: 2023-03-25T14:39:03.231733
+Interval time: 5
+Successful requests 500
+Throughput : 100.0
+
+Mean: 6
+Median: 3
+99th percentile: 15
+99th percentile by Histogram: 13.020999999999981
+Min: 1
+Max: 1071
+
+----------------------------------------------------------
+

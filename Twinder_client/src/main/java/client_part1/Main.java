@@ -8,8 +8,8 @@ import java.util.concurrent.TimeUnit;
 
 public class Main {
     final static int NUM_THREAD = 200;
-    final static int TOTAL_REQUEST = 500000;
-    final static String SERVER_URL = "http://54.148.82.17:8080/Twinder_Server_2_war";
+    final static int TOTAL_REQUEST = 500;
+    final static String SERVER_URL = "http://localhost:8080/Twinder_Server_3_war_exploded";
 
     /**
      * Use a thread pool of fixed size of NUM_THREAD and have a TOTAL_REQUEST number, each thread is going to send

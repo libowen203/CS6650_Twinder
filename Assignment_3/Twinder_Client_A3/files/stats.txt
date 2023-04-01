@@ -1,0 +1,756 @@
+NUM_THREAD :600
+Start time: 2023-03-25T14:45:11.836883
+End time: 2023-03-25T14:45:15.437801
+Interval time: 3
+Successful requests 500
+Throughput : 166.0
+
+Mean: 4
+Median: 2
+99th percentile: 14
+99th percentile by Histogram: 14.001
+Min: 1
+Max: 617
+
+----------------------------------------------------------
+
+NUM_THREAD :200
+Start time: 2023-03-26T20:42:03.826766
+End time: 2023-03-26T20:42:21.233884
+Interval time: 17
+Successful requests 5000
+Throughput : 294.0
+
+Mean: 659
+Median: 360
+99th percentile: 5997
+99th percentile by Histogram: 5921.00800000007
+Min: 3
+Max: 6938
+
+----------------------------------------------------------
+
+NUM_THREAD :200
+Start time: 2023-03-27T14:07:04.290646
+End time: 2023-03-27T14:08:08.370045
+Interval time: 64
+Successful requests 50000
+Throughput : 781.0
+
+Mean: 245
+Median: 12
+99th percentile: 2942
+99th percentile by Histogram: 2941.044000000001
+Min: 0
+Max: 11683
+
+----------------------------------------------------------
+
+NUM_THREAD :200
+Start time: 2023-03-27T14:10:43.701466
+End time: 2023-03-27T14:12:15.496061
+Interval time: 91
+Successful requests 500000
+Throughput : 5494.0
+
+Mean: 34
+Median: 8
+99th percentile: 571
+99th percentile by Histogram: 571.0630000000004
+Min: 0
+Max: 8440
+
+----------------------------------------------------------
+
+NUM_THREAD :200
+Start time: 2023-03-27T20:00:38.079244
+End time: 2023-03-27T20:02:43.286986
+Interval time: 125
+Successful requests 500000
+Throughput : 4000.0
+
+Mean: 47
+Median: 9
+99th percentile: 674
+99th percentile by Histogram: 674.0010000000009
+Min: 0
+Max: 10305
+
+----------------------------------------------------------
+
+NUM_THREAD :200
+Start time: 2023-03-27T21:27:57.035546
+End time: 2023-03-27T21:29:31.795817
+Interval time: 94
+Successful requests 500000
+Throughput : 5319.0
+
+Mean: 33
+Median: 6
+99th percentile: 392
+99th percentile by Histogram: 391.01100000001026
+Min: 0
+Max: 10881
+
+----------------------------------------------------------
+
+NUM_THREAD :200
+Start time: 2023-03-27T21:56:49.042310
+End time: 2023-03-27T21:57:59.041878
+Interval time: 69
+Successful requests 500000
+Throughput : 7246.0
+
+Mean: 23
+Median: 5
+99th percentile: 241
+99th percentile by Histogram: 241.0789999999979
+Min: 0
+Max: 10372
+
+----------------------------------------------------------
+
+NUM_THREAD :200
+Start time: 2023-03-27T22:17:31.808421
+End time: 2023-03-27T22:18:24.003017
+Interval time: 52
+Successful requests 500000
+Throughput : 9615.0
+
+Mean: 19
+Median: 6
+99th percentile: 229
+99th percentile by Histogram: 229.0969999999972
+Min: 0
+Max: 7561
+
+----------------------------------------------------------
+
+NUM_THREAD :200
+Start time: 2023-03-29T11:01:51.292039
+End time: 2023-03-29T11:02:32.963439
+Interval time: 41
+Successful requests 500000
+Throughput : 12195.0
+
+Mean: 15
+Median: 6
+99th percentile: 163
+99th percentile by Histogram: 163.00100000000094
+Min: 0
+Max: 4379
+
+----------------------------------------------------------
+
+NUM_THREAD :200
+Start time: 2023-03-29T11:06:13.730476
+End time: 2023-03-29T11:07:05.718914
+Interval time: 51
+Successful requests 500000
+Throughput : 9803.0
+
+Mean: 18
+Median: 6
+99th percentile: 197
+99th percentile by Histogram: 197.00100000000094
+Min: 0
+Max: 7118
+
+----------------------------------------------------------
+
+NUM_THREAD :200
+Start time: 2023-03-29T11:14:29.006594
+End time: 2023-03-29T11:15:37.740574
+Interval time: 68
+Successful requests 500000
+Throughput : 7352.0
+
+Mean: 23
+Median: 5
+99th percentile: 197
+99th percentile by Histogram: 197.00100000000094
+Min: 0
+Max: 10281
+
+----------------------------------------------------------
+
+NUM_THREAD :200
+Start time: 2023-03-29T13:10:44.573623
+End time: 2023-03-29T13:12:04.483962
+Interval time: 79
+Successful requests 500000
+Throughput : 6329.0
+
+Mean: 27
+Median: 5
+99th percentile: 301
+99th percentile by Histogram: 301.00100000000094
+Min: 0
+Max: 10059
+
+----------------------------------------------------------
+
+NUM_THREAD :200
+Start time: 2023-03-29T13:59:40.722571
+End time: 2023-03-29T14:02:03.200834
+Interval time: 142
+Successful requests 500000
+Throughput : 3521.0
+
+Mean: 55
+Median: 34
+99th percentile: 180
+99th percentile by Histogram: 180.00100000000094
+Min: 14
+Max: 10178
+
+----------------------------------------------------------
+
+NUM_THREAD :200
+Start time: 2023-03-29T14:44:40.845411
+End time: 2023-03-29T14:47:58.261998
+Interval time: 197
+Successful requests 500000
+Throughput : 2538.0
+
+Mean: 77
+Median: 33
+99th percentile: 225
+99th percentile by Histogram: 225.01599999999743
+Min: 15
+Max: 10197
+
+----------------------------------------------------------
+
+NUM_THREAD :200
+Start time: 2023-03-29T15:04:42.285211
+End time: 2023-03-29T15:11:24.783291
+Interval time: 402
+Successful requests 500000
+Throughput : 1243.0
+
+Mean: 157
+Median: 33
+99th percentile: 6537
+99th percentile by Histogram: 6537.065000000002
+Min: 14
+Max: 10566
+
+----------------------------------------------------------
+
+NUM_THREAD :200
+Start time: 2023-03-29T15:16:53.403277
+End time: 2023-03-29T15:20:33.722513
+Interval time: 220
+Successful requests 500000
+Throughput : 2272.0
+
+Mean: 86
+Median: 33
+99th percentile: 263
+99th percentile by Histogram: 263.0770000000019
+Min: 15
+Max: 10135
+
+----------------------------------------------------------
+
+NUM_THREAD :200
+Start time: 2023-03-29T15:27:43.407884
+End time: 2023-03-29T15:29:53.117446
+Interval time: 129
+Successful requests 500000
+Throughput : 3875.0
+
+Mean: 49
+Median: 34
+99th percentile: 160
+99th percentile by Histogram: 160.06699999999836
+Min: 15
+Max: 10097
+
+----------------------------------------------------------
+
+NUM_THREAD :200
+Start time: 2023-03-29T17:21:27.341158
+End time: 2023-03-29T17:26:00.518589
+Interval time: 273
+Successful requests 500000
+Throughput : 1831.0
+
+Mean: 107
+Median: 33
+99th percentile: 291
+99th percentile by Histogram: 291.00100000000094
+Min: 15
+Max: 10099
+
+----------------------------------------------------------
+
+NUM_THREAD :200
+Start time: 2023-03-29T17:30:04.282418
+End time: 2023-03-29T17:33:14.251967
+Interval time: 189
+Successful requests 500000
+Throughput : 2645.0
+
+Mean: 74
+Median: 33
+99th percentile: 258
+99th percentile by Histogram: 258.07600000000093
+Min: 14
+Max: 10125
+
+----------------------------------------------------------
+
+NUM_THREAD :200
+Start time: 2023-03-29T18:14:05.574404
+End time: 2023-03-29T18:19:03.032578
+Interval time: 297
+Successful requests 500000
+Throughput : 1683.0
+
+Mean: 117
+Median: 33
+99th percentile: 2400
+99th percentile by Histogram: 2398.3370000000286
+Min: 14
+Max: 10138
+
+----------------------------------------------------------
+
+NUM_THREAD :200
+Start time: 2023-03-29T22:02:59.983265
+End time: 2023-03-29T22:06:54.935977
+Interval time: 234
+Successful requests 500000
+Throughput : 2136.0
+
+Mean: 92
+Median: 33
+99th percentile: 590
+99th percentile by Histogram: 590.077999999997
+Min: 14
+Max: 10172
+
+----------------------------------------------------------
+
+NUM_THREAD :100
+Start time: 2023-03-30T22:29:46.966285
+End time: 2023-03-30T22:29:56.714414
+Interval time: 9
+Successful requests 10000
+Throughput : 1111.0
+
+Mean: 89
+Median: 39
+99th percentile: 1718
+99th percentile by Histogram: 601.2810000002462
+Min: 15
+Max: 1802
+
+----------------------------------------------------------
+
+NUM_THREAD :100
+Start time: 2023-03-30T22:40:23.294502
+End time: 2023-03-30T22:41:03.681026
+Interval time: 40
+Successful requests 100000
+Throughput : 2500.0
+
+Mean: 38
+Median: 31
+99th percentile: 181
+99th percentile by Histogram: 180.01099999999423
+Min: 18
+Max: 2072
+
+----------------------------------------------------------
+
+NUM_THREAD :100
+Start time: 2023-03-30T22:46:50.337069
+End time: 2023-03-30T22:47:31.088359
+Interval time: 40
+Successful requests 100000
+Throughput : 2500.0
+
+Mean: 39
+Median: 31
+99th percentile: 193
+99th percentile by Histogram: 192.01099999999423
+Min: 14
+Max: 2537
+
+----------------------------------------------------------
+
+NUM_THREAD :100
+Start time: 2023-03-30T23:00:05.056138
+End time: 2023-03-30T23:00:48.293418
+Interval time: 43
+Successful requests 100000
+Throughput : 2325.0
+
+Mean: 41
+Median: 31
+99th percentile: 216
+99th percentile by Histogram: 216.00099999999946
+Min: 14
+Max: 1876
+
+----------------------------------------------------------
+
+NUM_THREAD :100
+Start time: 2023-03-30T23:21:18.732334
+End time: 2023-03-30T23:21:58.392587
+Interval time: 39
+Successful requests 100000
+Throughput : 2564.0
+
+Mean: 38
+Median: 30
+99th percentile: 174
+99th percentile by Histogram: 174.00099999999946
+Min: 18
+Max: 2302
+
+----------------------------------------------------------
+
+NUM_THREAD :100
+Start time: 2023-03-30T23:38:47.226836
+End time: 2023-03-30T23:39:27.099255
+Interval time: 39
+Successful requests 100000
+Throughput : 2564.0
+
+Mean: 38
+Median: 31
+99th percentile: 161
+99th percentile by Histogram: 161.00099999999946
+Min: 18
+Max: 2209
+
+----------------------------------------------------------
+
+NUM_THREAD :100
+Start time: 2023-03-30T23:47:14.015211
+End time: 2023-03-30T23:47:53.739147
+Interval time: 39
+Successful requests 100000
+Throughput : 2564.0
+
+Mean: 38
+Median: 31
+99th percentile: 188
+99th percentile by Histogram: 188.00099999999946
+Min: 17
+Max: 2215
+
+----------------------------------------------------------
+
+NUM_THREAD :100
+Start time: 2023-03-30T23:48:49.686745
+End time: 2023-03-30T23:49:39.506248
+Interval time: 49
+Successful requests 100000
+Throughput : 2040.0
+
+Mean: 47
+Median: 31
+99th percentile: 234
+99th percentile by Histogram: 233.01099999999423
+Min: 15
+Max: 4111
+
+----------------------------------------------------------
+
+NUM_THREAD :100
+Start time: 2023-03-30T23:53:41.305818
+End time: 2023-03-30T23:54:22.079579
+Interval time: 40
+Successful requests 100000
+Throughput : 2500.0
+
+Mean: 39
+Median: 31
+99th percentile: 217
+99th percentile by Histogram: 217.00099999999946
+Min: 17
+Max: 2180
+
+----------------------------------------------------------
+
+NUM_THREAD :100
+Start time: 2023-03-30T23:55:17.063826
+End time: 2023-03-30T23:55:58.898556
+Interval time: 41
+Successful requests 100000
+Throughput : 2439.0
+
+Mean: 40
+Median: 30
+99th percentile: 233
+99th percentile by Histogram: 232.01099999999423
+Min: 15
+Max: 2029
+
+----------------------------------------------------------
+
+NUM_THREAD :100
+Start time: 2023-03-30T23:57:14.061382
+End time: 2023-03-30T23:57:54.181470
+Interval time: 40
+Successful requests 100000
+Throughput : 2500.0
+
+Mean: 38
+Median: 30
+99th percentile: 212
+99th percentile by Histogram: 212.00099999999946
+Min: 16
+Max: 1908
+
+----------------------------------------------------------
+
+NUM_THREAD :100
+Start time: 2023-03-31T00:02:27.532065
+End time: 2023-03-31T00:05:30.110134
+Interval time: 182
+Successful requests 500000
+Throughput : 2747.0
+
+Mean: 35
+Median: 30
+99th percentile: 149
+99th percentile by Histogram: 149.00100000000094
+Min: 15
+Max: 2704
+
+----------------------------------------------------------
+
+NUM_THREAD :200
+Start time: 2023-03-31T00:09:55.904165
+End time: 2023-03-31T00:10:36.294036
+Interval time: 40
+Successful requests 100000
+Throughput : 2500.0
+
+Mean: 69
+Median: 35
+99th percentile: 567
+99th percentile by Histogram: 567.0009999999995
+Min: 16
+Max: 4132
+
+----------------------------------------------------------
+
+NUM_THREAD :200
+Start time: 2023-03-31T00:13:04.463653
+End time: 2023-03-31T00:14:55.300952
+Interval time: 110
+Successful requests 500000
+Throughput : 4545.0
+
+Mean: 43
+Median: 34
+99th percentile: 200
+99th percentile by Histogram: 200.0859999999986
+Min: 16
+Max: 3559
+
+----------------------------------------------------------
+
+NUM_THREAD :300
+Start time: 2023-03-31T11:56:36.545751
+End time: 2023-03-31T11:58:29.772850
+Interval time: 113
+Successful requests 500000
+Throughput : 4424.0
+
+Mean: 64
+Median: 50
+99th percentile: 221
+99th percentile by Histogram: 221.00100000000094
+Min: 15
+Max: 5955
+
+----------------------------------------------------------
+
+NUM_THREAD :300
+Start time: 2023-03-31T14:09:52.852295
+End time: 2023-03-31T14:10:25.834828
+Interval time: 32
+Successful requests 100000
+Throughput : 3125.0
+
+Mean: 88
+Median: 46
+99th percentile: 428
+99th percentile by Histogram: 428.00099999999946
+Min: 19
+Max: 6367
+
+----------------------------------------------------------
+
+NUM_THREAD :300
+Start time: 2023-03-31T14:12:30.487869
+End time: 2023-03-31T14:13:02.477722
+Interval time: 31
+Successful requests 100000
+Throughput : 3225.0
+
+Mean: 83
+Median: 45
+99th percentile: 455
+99th percentile by Histogram: 455.0
+Min: 16
+Max: 5449
+
+----------------------------------------------------------
+
+NUM_THREAD :300
+Start time: 2023-03-31T14:46:25.284440
+End time: 2023-03-31T14:47:00.985213
+Interval time: 35
+Successful requests 100000
+Throughput : 2857.0
+
+Mean: 95
+Median: 43
+99th percentile: 1071
+99th percentile by Histogram: 1071.061
+Min: 14
+Max: 5908
+
+----------------------------------------------------------
+
+NUM_THREAD :300
+Start time: 2023-03-31T15:01:24.169641
+End time: 2023-03-31T15:01:58.488590
+Interval time: 34
+Successful requests 100000
+Throughput : 2941.0
+
+Mean: 91
+Median: 45
+99th percentile: 641
+99th percentile by Histogram: 641.0360000000001
+Min: 16
+Max: 6232
+
+----------------------------------------------------------
+
+NUM_THREAD :300
+Start time: 2023-03-31T15:04:45.114834
+End time: 2023-03-31T15:05:18.709189
+Interval time: 33
+Successful requests 100000
+Throughput : 3030.0
+
+Mean: 88
+Median: 43
+99th percentile: 641
+99th percentile by Histogram: 641.0009999999995
+Min: 16
+Max: 5786
+
+----------------------------------------------------------
+
+NUM_THREAD :300
+Start time: 2023-03-31T15:10:15.246181
+End time: 2023-03-31T15:10:45.854297
+Interval time: 30
+Successful requests 100000
+Throughput : 3333.0
+
+Mean: 80
+Median: 42
+99th percentile: 503
+99th percentile by Histogram: 501.020999999989
+Min: 16
+Max: 4936
+
+Get Requests Analyzation 
+Mean: 80
+Median: 42
+99th percentile: 503
+99th percentile by Histogram: 501.020999999989
+Min: 16
+Max: 4936
+
+
+----------------------------------------------------------
+
+NUM_THREAD :300
+Start time: 2023-03-31T15:12:10.626641
+End time: 2023-03-31T15:13:03.599467
+Interval time: 52
+Successful requests 100000
+Throughput : 1923.0
+
+Mean: 143
+Median: 42
+99th percentile: 2375
+99th percentile by Histogram: 2371.1069999999786
+Min: 15
+Max: 18810
+
+Get Requests Analyzation 
+Mean: 62
+Median: 39
+99th percentile: 937
+99th percentile by Histogram: 346.961000000003
+Min: 17
+Max: 937
+
+
+----------------------------------------------------------
+
+NUM_THREAD :300
+Start time: 2023-03-31T15:34:27.426160
+End time: 2023-03-31T15:36:11.558617
+Interval time: 104
+Successful requests 500000
+Throughput : 4807.0
+
+Mean: 58
+Median: 42
+99th percentile: 192
+99th percentile by Histogram: 192.07600000000093
+Min: 15
+Max: 10432
+
+Get Requests Analyzation 
+Mean: 68
+Median: 42
+99th percentile: 424
+99th percentile by Histogram: 420.3759999999981
+Min: 17
+Max: 3769
+
+
+----------------------------------------------------------
+
+NUM_THREAD :300
+Start time: 2023-03-31T15:57:42.137804
+End time: 2023-03-31T15:59:24.685502
+Interval time: 102
+Successful requests 500000
+Throughput : 4901.0
+
+Mean: 56
+Median: 41
+99th percentile: 327
+99th percentile by Histogram: 327.0830000000017
+Min: 14
+Max: 5038
+
+Get Requests Analyzation 
+Mean: 59
+Median: 41
+99th percentile: 429
+99th percentile by Histogram: 427.41599999999914
+Min: 16
+Max: 653
+
+
+----------------------------------------------------------
+
